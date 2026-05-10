@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ArcIntelligence
 
-## Getting Started
+**The World's Most Powerful On-Device AI Assistant**
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Download
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[Download ArcIntelligence (with donation)](https://arclintelligence.com) | [Download Free](https://arclintelligence.com)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Why ArcIntelligence?
 
-## Learn More
+🤖 **AI for Everyone** — No technical knowledge required  
+🔌 **Offline AI** — Works without internet  
+🎙️ **Voice Powered** — Natural voice interactions  
+🔒 **Privacy Focused** — Your data stays on your device  
+⚡ **On-Device** — No API calls, no cloud dependency  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Core Capabilities
+- Text Summarization
+- Translation (any language)
+- Question Answering
+- Image Understanding
+- Read Text from Images (OCR)
+- Video Clip Understanding
+- Visual Question Answering
 
-## Deploy on Vercel
+### Content Generation
+- Generate Apps from Text
+- Generate Websites from Text
+- Generate Games from Text
+- Generate Images from Text
+- Generate Video from Text
+- Generate Website from Screenshots
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Productivity
+- Schedule meetings from chat
+- Read & summarize emails
+- Draft replies and follow-ups
+- Translate messages in real time
+- Analyze insurance quotes
+- Manage subscriptions
+- Remind you of deadlines
+- Plan your week
+- Take meeting notes
+- Automate payroll calculations
+- Negotiate refunds
+- Find coupons and discount codes
+- Track crypto and stocks
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Business
+- Find recipes from ingredients
+- Draft social posts
+- Write contracts and NDAs
+- Research competitors
+- Screen interview candidates
+- Track OKRs and KPIs
+- Monitor news and alerts
+- Set and track goals
+- Screen cold outreach
+- Draft job descriptions
+
+---
+
+## Comparison
+
+| Feature | OpenClaw | SimpleClaw | ArcIntelligence | Other AI |
+|---------|----------|------------|-----------------|----------|
+| Free trial | ❌ | ❌ | ✅ | ❌ |
+| On-Device | ❌ | ❌ | ✅ | ❌ |
+| Offline | ❌ | ❌ | ✅ | ❌ |
+| No API needed | ❌ | ❌ | ✅ | ❌ |
+| No internet required | ❌ | ❌ | ✅ | ❌ |
+| No powerful system needed | ❌ | ❌ | ✅ | ❌ |
+| No supporting apps needed | ❌ | ❌ | ✅ | ❌ |
+| Low latency | ❌ | ❌ | ✅ | ❌ |
+| Unlimited usage | ❌ | ❌ | ✅ | ❌ |
+| Create apps | ❌ | ❌ | ✅ | ❌ |
+| Create websites | ❌ | ❌ | ✅ | ❌ |
+| Create games | ❌ | ❌ | ✅ | ❌ |
+| Text to image | ❌ | ❌ | ✅ | ❌ |
+| Text to video | ❌ | ❌ | ✅ | ❌ |
+
+---
+
+## Support Development
+
+| Tier | Amount | Benefits |
+|------|--------|----------|
+| supporter | $9.99 | Support the project |
+| 🏆 Champion | $19.99 | Early access + support |
+| 🌟 Legendary | $39.99 | All features + priority support |
+| 👑 Elite | $69.99 | Everything + custom features |
+
+[Donate Here](https://arclintelligence.com)
+
+---
+
+## Built With ❤️ by ArcIntelligence
+
+[Contact Support](https://arclintelligence.com)
+
+---
+
+## Tech Stack
+
+[![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React-19-61DAFB)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6)](https://www.typescriptlang.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38B2AC)](https://tailwindcss.com)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E)](https://supabase.com)
+
+---
+
+MIT License — © 2024 ArcIntelligence
