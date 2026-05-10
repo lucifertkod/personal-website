@@ -4,21 +4,21 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Check, X } from 'lucide-react';
 
 const comparisonData = [
-  { feature: 'Free trial', openclaw: { type: 'x' }, simpleclaw: { type: 'x' }, arcle: { type: 'check' }, other: { type: 'check' } },
-  { feature: 'On-Device', openclaw: { type: 'x' }, simpleclaw: { type: 'x' }, arcle: { type: 'check' }, other: { type: 'x' } },
-  { feature: 'Internet required', openclaw: { type: 'check' }, simpleclaw: { type: 'check' }, arcle: { type: 'x' }, other: { type: 'check' } },
-  { feature: 'API needed', openclaw: { type: 'check' }, simpleclaw: { type: 'check' }, arcle: { type: 'x' }, other: { type: 'check' } },
-  { feature: 'Offline', openclaw: { type: 'x' }, simpleclaw: { type: 'x' }, arcle: { type: 'check' }, other: { type: 'x' } },
-  { feature: 'Powerful system required', openclaw: { type: 'check' }, simpleclaw: { type: 'check' }, arcle: { type: 'x' }, other: { type: 'check' } },
-  { feature: 'Supporting apps needed', openclaw: { type: 'check' }, simpleclaw: { type: 'check' }, arcle: { type: 'x' }, other: { type: 'check' } },
-  { feature: 'Latency', openclaw: { type: 'check' }, simpleclaw: { type: 'check' }, arcle: { type: 'x' }, other: { type: 'check' } },
-  { feature: 'Any limit', openclaw: { type: 'check', text: '(APIs limit)' }, simpleclaw: { type: 'check', text: '(APIs limit)' }, arcle: { type: 'x' }, other: { type: 'check' } },
-  { feature: 'Any monthly cap', openclaw: { type: 'check', text: '(APIs limit)' }, simpleclaw: { type: 'check', text: '(APIs limit)' }, arcle: { type: 'x' }, other: { type: 'x' } },
-  { feature: 'Can create apps', openclaw: { type: 'x' }, simpleclaw: { type: 'x' }, arcle: { type: 'check' }, other: { type: 'check' } },
-  { feature: 'Can create website', openclaw: { type: 'x' }, simpleclaw: { type: 'x' }, arcle: { type: 'check' }, other: { type: 'check' } },
-  { feature: 'Create games', openclaw: { type: 'x' }, simpleclaw: { type: 'x' }, arcle: { type: 'check' }, other: { type: 'check' } },
-  { feature: 'Text to image', openclaw: { type: 'x', text: '(APIs needed)' }, simpleclaw: { type: 'x', text: '(APIs needed)' }, arcle: { type: 'check' }, other: { type: 'check' } },
-  { feature: 'Text to video', openclaw: { type: 'x', text: '(APIs needed)' }, simpleclaw: { type: 'x', text: '(APIs needed)' }, arcle: { type: 'check' }, other: { type: 'x', text: '(some models can\ncreate)' } }
+  { feature: 'Free trial', openclaw: { type: 'x' }, simpleclaw: { type: 'x' }, arc: { type: 'check' }, other: { type: 'check' } },
+  { feature: 'On-Device', openclaw: { type: 'x' }, simpleclaw: { type: 'x' }, arc: { type: 'check' }, other: { type: 'x' } },
+  { feature: 'Internet required', openclaw: { type: 'check' }, simpleclaw: { type: 'check' }, arc: { type: 'x' }, other: { type: 'check' } },
+  { feature: 'API needed', openclaw: { type: 'check' }, simpleclaw: { type: 'check' }, arc: { type: 'x' }, other: { type: 'check' } },
+  { feature: 'Offline', openclaw: { type: 'x' }, simpleclaw: { type: 'x' }, arc: { type: 'check' }, other: { type: 'x' } },
+  { feature: 'Powerful system required', openclaw: { type: 'check' }, simpleclaw: { type: 'check' }, arc: { type: 'x' }, other: { type: 'check' } },
+  { feature: 'Supporting apps needed', openclaw: { type: 'check' }, simpleclaw: { type: 'check' }, arc: { type: 'x' }, other: { type: 'check' } },
+  { feature: 'Latency', openclaw: { type: 'check' }, simpleclaw: { type: 'check' }, arc: { type: 'x' }, other: { type: 'check' } },
+  { feature: 'Any limit', openclaw: { type: 'check', text: '(APIs limit)' }, simpleclaw: { type: 'check', text: '(APIs limit)' }, arc: { type: 'x' }, other: { type: 'check' } },
+  { feature: 'Any monthly cap', openclaw: { type: 'check', text: '(APIs limit)' }, simpleclaw: { type: 'check', text: '(APIs limit)' }, arc: { type: 'x' }, other: { type: 'x' } },
+  { feature: 'Can create apps', openclaw: { type: 'x' }, simpleclaw: { type: 'x' }, arc: { type: 'check' }, other: { type: 'check' } },
+  { feature: 'Can create website', openclaw: { type: 'x' }, simpleclaw: { type: 'x' }, arc: { type: 'check' }, other: { type: 'check' } },
+  { feature: 'Create games', openclaw: { type: 'x' }, simpleclaw: { type: 'x' }, arc: { type: 'check' }, other: { type: 'check' } },
+  { feature: 'Text to image', openclaw: { type: 'x', text: '(APIs needed)' }, simpleclaw: { type: 'x', text: '(APIs needed)' }, arc: { type: 'check' }, other: { type: 'check' } },
+  { feature: 'Text to video', openclaw: { type: 'x', text: '(APIs needed)' }, simpleclaw: { type: 'x', text: '(APIs needed)' }, arc: { type: 'check' }, other: { type: 'x', text: '(some models can\ncreate)' } }
 ];
 
 const ComparisonIcon = ({ data }: { data: { type: string, text?: string } }) => {
@@ -71,7 +71,7 @@ const Comparison = () => {
       </div>
 
       <h2 className="text-xl sm:text-3xl md:text-5xl font-bold text-white tracking-tight text-center mb-8 sm:mb-12 md:mb-16 text-balance">
-        OpenClaw vs SimpleClaw vs ArcleIntelligence vs Other Traditional AI Models
+        OpenClaw vs SimpleClaw vs ArcIntelligence vs Other Traditional AI Models
       </h2>
 
       <div className="w-full overflow-x-auto rounded-3xl border border-white/10 bg-white/[0.02] p-2 shadow-2xl backdrop-blur-sm">
@@ -88,7 +88,7 @@ const Comparison = () => {
                 Simpleclaw
               </th>
               <th className="py-6 px-4 text-center font-sans text-sm sm:text-base text-white font-semibold border-b border-white/10 w-[19%]">
-                Arcleintelligence
+                Arcintelligence
               </th>
               <th className="py-6 px-4 text-center font-sans text-sm sm:text-base text-white font-semibold border-b border-white/10 w-[19%]">
                 Other AI models
@@ -112,7 +112,7 @@ const Comparison = () => {
                   <ComparisonIcon data={row.simpleclaw} />
                 </td>
                 <td className="py-5 px-4 align-middle">
-                  <ComparisonIcon data={row.arcle} />
+                  <ComparisonIcon data={row.arc} />
                 </td>
                 <td className="py-5 px-4 align-middle">
                   <ComparisonIcon data={row.other} />

@@ -1,122 +1,146 @@
-"use client";
+const FeatureTable = () => {
+  const features = [
+    {
+      feature: "Free trial",
+      openclaw: "Yes",
+      arc: "100% Free Forever",
+      legacy: "Limited",
+    },
+    {
+      feature: "Execution Environment",
+      openclaw: "Cloud",
+      arc: "On-Device",
+      legacy: "Cloud",
+    },
+    {
+      feature: "Network Dependency",
+      openclaw: "Internet required",
+      arc: "True Offline",
+      legacy: "Internet required",
+    },
+    {
+      feature: "API Dependencies",
+      openclaw: "API needed",
+      arc: "Zero Dependencies",
+      legacy: "API needed",
+    },
+    {
+      feature: "Hardware Constraints",
+      openclaw: "Basic client",
+      arc: "Powerful System Req.",
+      legacy: "Basic client",
+    },
+    {
+      feature: "Operational Limits",
+      openclaw: "API limit",
+      arc: "No Limitations",
+      legacy: "Monthly Caps",
+    },
+    {
+      feature: "App/Web/Game Gen.",
+      openclaw: "No",
+      arc: "Native Generation",
+      legacy: "Varies",
+    },
+    {
+      feature: "Media Generation",
+      openclaw: "API needed",
+      arc: "Full Suite Native",
+      legacy: "Partial",
+    },
+  ];
 
-import React, { useEffect, useRef, useState } from 'react';
-import { Check, X } from 'lucide-react';
+  return (
+    <section id="matrix" className="py-24 px-6 md:px-12 max-w-[1600px] mx-auto scroll-mt-20">
+      <div className="mb-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-end arch-border-b pb-8">
+        <div>
+          <h2 className="font-mono text-sm uppercase tracking-widest text-klein-blue mb-4">
+            Fig. 1 — Data Matrix
+          </h2>
+          <h3 className="font-sans font-bold text-4xl md:text-6xl uppercase tracking-tighter">
+            System
+            <br />
+            <span className="font-serif italic font-normal text-ink/70">Comparison</span>
+          </h3>
+        </div>
+        <div className="font-mono text-sm text-ink/60 md:max-w-xs md:justify-self-end">
+          Architectural differences between ArcIntelligence and legacy cloud-dependent models.
+        </div>
+      </div>
 
-const featureData = [
-    { feature: 'Free', pro: { type: 'check', text: '(forever)' }, lite: { type: 'check', text: '(forever)' }, automate: { type: 'check', text: '(forever)' } },
-    { feature: 'Offline', pro: { type: 'check' }, lite: { type: 'check' }, automate: { type: 'check' } },
-    { feature: 'Ondevice', pro: { type: 'check' }, lite: { type: 'check' }, automate: { type: 'check' } },
-    { feature: 'Privacy focused', pro: { type: 'check' }, lite: { type: 'check' }, automate: { type: 'check' } },
-    { feature: 'Latency free', pro: { type: 'check' }, lite: { type: 'check' }, automate: { type: 'check' } },
-    { feature: 'Automation', pro: { type: 'check' }, lite: { type: 'check' }, automate: { type: 'check' } },
-    { feature: 'LLM related work', pro: { type: 'check' }, lite: { type: 'check' }, automate: { type: 'check' } },
-    { feature: 'Text & Image', pro: { type: 'check' }, lite: { type: 'check' }, automate: { type: 'x' } },
-    { feature: 'Text to Video', pro: { type: 'check' }, lite: { type: 'x' }, automate: { type: 'x' } },
-    { feature: 'Understand Images & Video', pro: { type: 'check' }, lite: { type: 'x' }, automate: { type: 'x' } },
-    { feature: 'Image 2 Code', pro: { type: 'check' }, lite: { type: 'x' }, automate: { type: 'x' } },
-    { feature: 'Android compatibility', pro: { type: 'check' }, lite: { type: 'check' }, automate: { type: 'check' } },
-    { feature: 'iOS compatibility', pro: { type: 'x' }, lite: { type: 'x' }, automate: { type: 'x' } },
-];
+      <div className="overflow-x-auto arch-border bg-white shadow-xl shadow-ink/5">
+        <table className="w-full text-left border-collapse min-w-[900px]">
+          <thead>
+            <tr className="font-mono text-xs uppercase tracking-widest bg-bone">
+              <th className="p-6 arch-border-r arch-border-b w-1/4 font-semibold text-ink">
+                Feature Matrix
+              </th>
+              <th className="p-6 arch-border-r arch-border-b w-[22%] text-ink/60 font-normal">
+                <div className="flex flex-col items-center gap-2">
+                  <div className="w-14 h-14 rounded-xl bg-white border-2 border-gray-200 flex items-center justify-center shadow-lg overflow-hidden relative p-1">
+                    <img
+                      src="/logos/openclaw-dark.svg"
+                      alt="OpenClaw"
+                      className="w-full h-full object-contain"
+                    />
+                    <div className="absolute inset-0 bg-noise opacity-20"></div>
+                  </div>
+                  <span className="font-bold">OpenClaw</span>
+                </div>
+              </th>
+              <th className="p-6 arch-border-r arch-border-b w-[22%] bg-klein-blue text-bone font-bold relative overflow-hidden">
+                <div className="flex flex-col items-center gap-2 relative z-10">
+                  <div className="w-14 h-14 rounded-xl bg-white/20 border-2 border-white/30 flex items-center justify-center shadow-lg overflow-hidden relative p-1">
+                    <img
+                      src="/logos/arc-intelligence.png"
+                      alt="ArcIntelligence"
+                      className="w-full h-full object-contain brightness-0 invert"
+                    />
+                    <div className="absolute inset-0 bg-noise opacity-20"></div>
+                  </div>
+                  <span>ArcIntelligence</span>
+                </div>
+              </th>
+              <th className="p-6 arch-border-b w-[22%] text-ink/60 font-normal">
+                <div className="flex flex-col items-center gap-2">
+                  <div className="w-14 h-14 rounded-xl bg-white border-2 border-gray-200 flex items-center justify-center shadow-lg overflow-hidden relative p-1">
+                    <img
+                      src="/logos/arcee-color.svg"
+                      alt="Legacy Models"
+                      className="w-full h-full object-contain"
+                    />
+                    <div className="absolute inset-0 bg-noise opacity-20"></div>
+                  </div>
+                  <span className="font-bold">Legacy Models</span>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody className="font-sans text-sm">
+            {features.map((row, index) => (
+              <tr
+                key={index}
+                className={`arch-border-b hover-invert group ${index === features.length - 1 ? "" : ""}`}
+              >
+                <td className="p-6 arch-border-r font-medium group-hover:border-r-klein-blue transition-colors">
+                  {row.feature}
+                </td>
+                <td className="p-6 arch-border-r text-ink/60 group-hover:text-bone/70 group-hover:border-r-klein-blue transition-colors">
+                  {row.openclaw}
+                </td>
+                <td className="p-6 arch-border-r bg-klein-blue/5 text-klein-blue font-bold group-hover:bg-transparent group-hover:text-bone transition-colors">
+                  {row.arc}
+                </td>
+                <td className="p-6 text-ink/60 group-hover:text-bone/70 transition-colors">
+                  {row.legacy}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  );
+};
 
-const FeatureIcon = ({ data }: { data: { type: string; text?: string } }) => (
-    <div className="flex flex-col items-center justify-center gap-1">
-        {data.type === 'check' ? (
-            <div className="flex items-center justify-center size-5 sm:size-7 bg-[#84cc16] rounded-md shadow-[0_0_10px_rgba(132,204,22,0.3)]">
-                <Check strokeWidth={4} className="size-3.5 sm:size-4 text-white" />
-            </div>
-        ) : (
-            <div className="flex items-center justify-center size-5 sm:size-7 rounded-md">
-                <X strokeWidth={4} className="size-4 sm:size-6 text-[#ef4444]" />
-            </div>
-        )}
-        {data.text && (
-            <span className="text-[10px] sm:text-xs text-emerald-400/80 italic text-center whitespace-pre-wrap max-w-[100px] leading-snug mt-0.5">
-                {data.text}
-            </span>
-        )}
-    </div>
-);
-
-export default function FeatureTable() {
-    const sectionRef = useRef<HTMLElement>(null);
-    const [isVisible, setIsVisible] = useState(false);
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                setIsVisible(entry.isIntersecting);
-            },
-            { threshold: 0.1 }
-        );
-        if (sectionRef.current) observer.observe(sectionRef.current);
-        return () => observer.disconnect();
-    }, []);
-
-    return (
-        <section
-            ref={sectionRef}
-            className={`w-full px-4 sm:px-6 py-10 sm:py-16 flex flex-col gap-3 max-w-6xl mx-auto min-w-0 transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0 blur-0' : 'opacity-0 translate-y-10 blur-sm'
-                }`}
-        >
-            {/* Label */}
-            <div className="w-full max-w-full flex flex-wrap items-center justify-center gap-2 sm:gap-4 min-h-[40px] sm:min-h-[46px] px-2 mb-2">
-                <div className="shrink min-w-0 flex-1 max-w-[80px] sm:max-w-[180px] md:max-w-[272px] h-[1px] bg-gradient-to-r from-transparent via-white/20 to-transparent" />
-                <span className="mx-1 sm:mx-4 shrink-0 text-xs sm:text-sm font-medium text-zinc-400 uppercase tracking-widest">
-                    Features
-                </span>
-                <div className="shrink min-w-0 flex-1 max-w-[80px] sm:max-w-[180px] md:max-w-[272px] h-[1px] bg-gradient-to-r from-transparent via-white/20 to-transparent" />
-            </div>
-
-            <h2 className="text-xl sm:text-3xl md:text-5xl font-bold text-white tracking-tight text-center mb-8 sm:mb-12 md:mb-16 text-balance">
-                ArcleIntelligence Feature Comparison
-            </h2>
-
-            <div className="w-full overflow-x-auto rounded-3xl border border-white/10 bg-white/[0.02] p-2 shadow-2xl backdrop-blur-sm">
-                <table className="w-full min-w-[600px] border-collapse">
-                    <thead>
-                        <tr>
-                            <th className="py-6 px-6 text-left font-sans text-base sm:text-lg text-white font-semibold border-b border-white/10 w-[34%]">
-                                Feature
-                            </th>
-                            <th className="py-6 px-4 text-center font-sans text-sm sm:text-base text-white font-semibold border-b border-white/10 w-[22%]">
-                                <span className="bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent">Pro</span>
-                            </th>
-                            <th className="py-6 px-4 text-center font-sans text-sm sm:text-base text-white font-semibold border-b border-white/10 w-[22%]">
-                                <span className="bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent">Lite</span>
-                            </th>
-                            <th className="py-6 px-4 text-center font-sans text-sm sm:text-base text-white font-semibold border-b border-white/10 w-[22%]">
-                                <span className="bg-gradient-to-r from-emerald-400 to-teal-500 bg-clip-text text-transparent">Automate</span>
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {featureData.map((row, idx) => (
-                            <tr
-                                key={idx}
-                                className={`transition-colors duration-200 hover:bg-white/[0.04] ${idx !== featureData.length - 1 ? 'border-b border-white/5' : ''
-                                    }`}
-                                style={{
-                                    animationDelay: `${idx * 50}ms`,
-                                }}
-                            >
-                                <td className="py-5 px-6 text-left font-sans text-sm sm:text-base text-zinc-300 font-medium tracking-wide">
-                                    {row.feature}
-                                </td>
-                                <td className="py-5 px-4 align-middle">
-                                    <FeatureIcon data={row.pro} />
-                                </td>
-                                <td className="py-5 px-4 align-middle">
-                                    <FeatureIcon data={row.lite} />
-                                </td>
-                                <td className="py-5 px-4 align-middle">
-                                    <FeatureIcon data={row.automate} />
-                                </td>
-                            </tr>
-                        ))}
-                    </tbody>
-                </table>
-            </div>
-        </section>
-    );
-}
+export default FeatureTable;

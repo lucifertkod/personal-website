@@ -121,7 +121,7 @@ export default function DeploymentCard() {
       <div className="w-full flex flex-wrap items-center justify-center gap-2 sm:gap-4 min-h-[40px] sm:min-h-[46px] px-2">
         <div className="shrink min-w-0 flex-1 max-w-[80px] sm:max-w-[180px] md:max-w-[272px] h-[1px] bg-gradient-to-r from-transparent via-white/20 to-transparent" />
         <span className="mx-1 sm:mx-4 shrink-0 text-xs sm:text-sm font-medium text-zinc-400">
-          All the features of ArcleIntelligence
+          All the features of ArcIntelligence
         </span>
         <div className="shrink min-w-0 flex-1 max-w-[80px] sm:max-w-[180px] md:max-w-[272px] h-[1px] bg-gradient-to-r from-transparent via-white/20 to-transparent" />
       </div>
@@ -210,7 +210,7 @@ export default function DeploymentCard() {
             className="w-full flex items-center justify-center gap-2.5 px-4 py-3.5 rounded-xl text-sm sm:text-base text-white font-semibold transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_24px_rgba(220,38,38,0.4)] border border-red-500/40 bg-gradient-to-r from-red-700/30 via-red-600/20 to-rose-700/30 backdrop-blur-sm no-underline"
           >
             <Download className="size-4" />
-            Download ArcleIntelligence after donation
+            Download ArcIntelligence after donation
           </a>
           {/* Without Donation — Dark / Black */}
           <a
@@ -218,7 +218,7 @@ export default function DeploymentCard() {
             className="w-full flex items-center justify-center gap-2.5 px-4 py-3.5 rounded-xl text-sm sm:text-base text-zinc-300 font-semibold transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(255,255,255,0.08)] border border-white/15 bg-gradient-to-r from-zinc-800/50 via-neutral-900/60 to-zinc-800/50 backdrop-blur-sm no-underline hover:border-white/25"
           >
             <Download className="size-4" />
-            Download ArcleIntelligence without donation
+            Download ArcIntelligence without donation
           </a>
         </div>
       </div>

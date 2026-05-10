@@ -135,7 +135,7 @@ export default function PricingTable() {
         key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
         amount: order.amount,
         currency: order.currency || "INR",
-        name: "ArcleIntelligence",
+        name: "ArcIntelligence",
         description: `${plan.name} Plan Donation`,
         order_id: order.id,
         handler: function () {
@@ -200,10 +200,10 @@ export default function PricingTable() {
       >
         <div className="text-center mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3">
-            Donate for ArcleIntelligence Development
+            Donate for ArcIntelligence Development
           </h2>
           <p className="text-sm sm:text-base text-zinc-400 max-w-xl mx-auto">
-            Support ArcleIntelligence development. Every contribution helps us build better AI.
+            Support ArcIntelligence development. Every contribution helps us build better AI.
           </p>
         </div>
 
