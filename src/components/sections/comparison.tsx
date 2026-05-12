@@ -71,7 +71,7 @@ const Comparison = () => {
       </div>
 
       <h2 className="text-xl sm:text-3xl md:text-5xl font-bold text-white tracking-tight text-center mb-8 sm:mb-12 md:mb-16 text-balance">
-        OpenClaw vs SimpleClaw vs ArcIntelligence vs Other Traditional AI Models
+        OpenClaw vs SimpleClaw vs ArcleIntelligence vs Other Traditional AI Models
       </h2>
 
       <div className="w-full overflow-x-auto rounded-3xl border border-white/10 bg-white/[0.02] p-2 shadow-2xl backdrop-blur-sm">
@@ -88,7 +88,7 @@ const Comparison = () => {
                 Simpleclaw
               </th>
               <th className="py-6 px-4 text-center font-sans text-sm sm:text-base text-white font-semibold border-b border-white/10 w-[19%]">
-                Arcintelligence
+                ArcleIntelligence
               </th>
               <th className="py-6 px-4 text-center font-sans text-sm sm:text-base text-white font-semibold border-b border-white/10 w-[19%]">
                 Other AI models

@@ -17,7 +17,7 @@ const Header = () => {
         <div className="w-full px-6 flex items-center justify-between h-20">
           <div className="flex items-center">
             <div className="font-serif text-3xl italic tracking-tight font-semibold flex flex-col leading-none">
-              <span>Arc</span>
+              <span>Arcle</span>
               <span className="text-sm font-sans not-italic font-bold tracking-widest uppercase ml-4 text-klein-blue">
                 Intelligence
               </span>

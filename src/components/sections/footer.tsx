@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="max-w-[1600px] mx-auto flex flex-col lg:flex-row justify-between items-start gap-16 relative z-10">
           <div className="max-w-sm">
             <div className="font-serif text-3xl italic tracking-tight font-semibold flex items-baseline gap-2 mb-6">
-              Arc{" "}
+              Arcle{" "}
               <span className="text-sm font-sans not-italic font-bold tracking-widest uppercase text-klein-blue">
                 Intelligence
               </span>
@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
 
         <div className="max-w-[1600px] mx-auto arch-border-t mt-20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 font-mono text-xs uppercase tracking-widest text-ink/50 relative z-10">
-          <p>Built by ArcIntelligence © 2026</p>
+          <p>Built by ArcleIntelligence © 2026</p>
           <p>© All Rights Reserved</p>
         </div>
       </footer>

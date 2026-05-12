@@ -94,7 +94,7 @@ export default function UseCaseShowcase() {
     >
       <div className="flex flex-col items-center justify-center gap-1 sm:gap-2">
         <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium text-white text-center text-balance">
-          What can ArcIntelligence do for you?
+          What can ArcleIntelligence do for you?
         </h2>
         <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium text-zinc-500 text-center text-balance">
           One assistant, thousands of use cases

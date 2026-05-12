@@ -27,7 +27,7 @@ const ibmMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ArcIntelligence | Editorial Edition",
+  title: "ArcleIntelligence | Editorial Edition",
   description: "Avoid all technical complexity. Run the world's most powerful, offline, on-device, privacy-focused, state-of-the-art AI assistant.",
 };
 

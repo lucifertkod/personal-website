@@ -64,7 +64,7 @@ const FeatureTable = () => {
           </h3>
         </div>
         <div className="font-mono text-sm text-ink/60 md:max-w-xs md:justify-self-end">
-          Architectural differences between ArcIntelligence and legacy cloud-dependent models.
+          Architectural differences between ArcleIntelligence and legacy cloud-dependent models.
         </div>
       </div>
 
@@ -93,12 +93,12 @@ const FeatureTable = () => {
                   <div className="w-14 h-14 rounded-xl bg-white/20 border-2 border-white/30 flex items-center justify-center shadow-lg overflow-hidden relative p-1">
                     <img
                       src="/logos/arc-intelligence.png"
-                      alt="ArcIntelligence"
+                      alt="ArcleIntelligence"
                       className="w-full h-full object-contain brightness-0 invert"
                     />
                     <div className="absolute inset-0 bg-noise opacity-20"></div>
                   </div>
-                  <span>ArcIntelligence</span>
+                  <span>ArcleIntelligence</span>
                 </div>
               </th>
               <th className="p-6 arch-border-b w-[22%] text-ink/60 font-normal">
