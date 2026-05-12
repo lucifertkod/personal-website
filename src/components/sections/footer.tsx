@@ -64,7 +64,7 @@ const Footer = () => {
                 Legal / Ops
               </span>
               <a
-                href="mailto:support@arcintelligence.com"
+                href="mailto:support@arcleintelligence.com"
                 className="hover:text-klein-blue transition-colors"
               >
                 Contact Support

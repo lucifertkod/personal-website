@@ -23,7 +23,7 @@ const SupportSection = () => {
           <span className="font-serif italic font-normal text-ink/70">Architecture</span>
         </h3>
         <p className="font-mono text-sm text-ink/60">
-          ArcIntelligence remains free and private. Support development. Every contribution funds
+          ArcleIntelligence remains free and private. Support development. Every contribution funds
           the next iteration.
         </p>
       </div>

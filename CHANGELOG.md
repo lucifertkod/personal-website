@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.0.1] - 2026-05-12
+
+### Fixed
+- Corrected company name spelling from "ArcIntelligence" to "ArcleIntelligence" across all files
+  - Updated in: header.tsx, footer.tsx, feature-table.tsx, support-section.tsx, layout.tsx, comparison.tsx, deployment-card.tsx, use-cases.tsx, pricing-table.tsx
+- Updated metadata title to use correct spelling
+- Updated CHANGELOG.md title to use correct spelling
+
+---
+
 ## [2.0.0] - 2026-05-10
 
 ### Added
@@ -40,7 +50,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **Feature Table** (`src/components/sections/feature-table.tsx`)
   - Comparison matrix with official logos
-  - Columns: OpenClaw, ArcIntelligence, Legacy Models
+  - Columns: OpenClaw, ArcleIntelligence, Legacy Models
   - Hover-invert effect on rows
   - Custom logo containers with noise texture
 

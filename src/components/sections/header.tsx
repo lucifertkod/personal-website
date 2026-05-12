@@ -35,7 +35,7 @@ const Header = () => {
               </a>
             ))}
             <a
-              href="mailto:support@arcintelligence.com"
+              href="mailto:support@arcleintelligence.com"
               className="h-full px-8 flex items-center arch-border-l bg-ink text-bone font-mono text-xs uppercase tracking-widest hover:bg-klein-blue transition-colors"
             >
               Contact
@@ -68,7 +68,7 @@ const Header = () => {
               </a>
             ))}
             <a
-              href="mailto:support@arcintelligence.com"
+              href="mailto:support@arcleintelligence.com"
               className="px-6 py-4 arch-border-b font-mono text-xs uppercase tracking-widest bg-ink text-bone"
               onClick={() => setMobileMenuOpen(false)}
             >
