@@ -26,7 +26,7 @@
 
 ---
 
-## 🎯 WHY ARCINTELLIGENCE?
+## 🎯 WHY ARCLEINTELLIGENCE?
 
 |<div align="center">**AI FOR EVERYONE**</div>|<div align="center">**OFFLINE AI**</div>|<div align="center">**VOICE POWERED**</div>|<div align="center">**PRIVACY FOCUSED**</div>|
 |:---:|:---:|:---:|:---:|
@@ -42,7 +42,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/arcintelligence.git
+git clone https://github.com/your-repo/arcleintelligence.git
 
 # Install dependencies
 npm install
@@ -53,7 +53,7 @@ npm run dev
 
 ---
 
-## 🚀 ALL THE FEATURES OF ARCINTELLIGENCE
+## 🚀 ALL THE FEATURES OF ARCLEINTELLIGENCE
 
 ### Core Capabilities
 | | | |
@@ -76,7 +76,7 @@ npm run dev
 
 ---
 
-## 💼 WHAT CAN ARCINTELLIGENCE DO FOR YOU?
+## 💼 WHAT CAN ARCLEINTELLIGENCE DO FOR YOU?
 
 <div align="center">
 
@@ -124,11 +124,11 @@ npm run dev
 
 <div align="center">
 
-### OPENCLAW vs SIMPLECLAW vs ARCINTELLIGENCE vs OTHER AI
+### OPENCLAW vs SIMPLECLAW vs ARCLEINTELLIGENCE vs OTHER AI
 
 </div>
 
-| Feature | OpenClaw | SimpleClaw | **ArcIntelligence** | Other AI |
+| Feature | OpenClaw | SimpleClaw | **ArcleIntelligence** | Other AI |
 |:---|:---:|:---:|:---:|:---:|
 | Free trial | ❌ | ❌ | ✅ | ❌ |
 | On-Device | ❌ | ❌ | ✅ | ❌ |
@@ -151,7 +151,7 @@ npm run dev
 
 <div align="center">
 
-### SUPPORT ARCINTELLIGENCE DEVELOPMENT
+### SUPPORT ARCLEINTELLIGENCE DEVELOPMENT
 ### Every contribution helps us build better AI
 
 </div>
@@ -176,7 +176,7 @@ npm run dev
 
 ---
 
-## 📥 DOWNLOAD ARCINTELLIGENCE
+## 📥 DOWNLOAD ARCLEINTELLIGENCE
 
 <div align="center">
 
@@ -205,7 +205,7 @@ npm run dev
 
 <div align="center">
 
-### Built with ❤️ by ArcIntelligence
+### Built with ❤️ by ArcleIntelligence
 
 [**Contact Support**](https://arclintelligence.com) | [**Website**](https://arclintelligence.com)
 
@@ -217,7 +217,7 @@ npm run dev
 
 ### ═══════════════════════════════════════════════════════════════
 
-**MIT License** — © 2026 ArcIntelligence
+**MIT License** — © 2026 ArcleIntelligence
 
 **All Rights Reserved**
 

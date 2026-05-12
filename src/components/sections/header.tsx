@@ -1,29 +1,83 @@
-import React from 'react';
-import { Mail } from 'lucide-react';
+"use client";
+
+import { useState } from "react";
 
 const Header = () => {
-  return (
-    <header className="w-full flex items-center justify-between gap-3 px-2 sm:px-0 py-2 sm:py-0 min-w-0">
-      <span className="text-base sm:text-lg font-medium text-white truncate min-w-0">
-        ArcleIntelligence
-        <span className="text-[#6A6B6C] italic">.com</span>
-      </span>
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-      <nav className="flex items-center shrink-0">
-        <a
-          href="mailto:support@arcleintelligence.com?subject=ArcleIntelligence%20Support%20Inquiry"
-          className="flex items-center gap-1.5 sm:gap-2 text-sm sm:text-base border-b-2 border-white/20 text-zinc-400 hover:text-zinc-500 transition-colors duration-500 whitespace-nowrap"
-          aria-label="Contact Support"
-        >
-          <Mail 
-            size={20} 
-            className="size-4 sm:size-5 shrink-0" 
-            strokeWidth={2}
-          />
-          Contact Support
-        </a>
+  const navLinks = [
+    { href: "#features", label: "Features" },
+    { href: "#matrix", label: "Data.Matrix" },
+    { href: "#donate", label: "Support" },
+  ];
+
+  return (
+    <>
+      <nav className="fixed top-0 w-full bg-bone/90 backdrop-blur-md z-50 arch-border-b">
+        <div className="w-full px-6 flex items-center justify-between h-20">
+          <div className="flex items-center">
+            <div className="font-serif text-3xl italic tracking-tight font-semibold flex flex-col leading-none">
+              <span>Arcle</span>
+              <span className="text-sm font-sans not-italic font-bold tracking-widest uppercase ml-4 text-klein-blue">
+                Intelligence
+              </span>
+            </div>
+          </div>
+
+          <div className="hidden md:flex h-full">
+            {navLinks.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="h-full px-6 flex items-center arch-border-l font-mono text-xs uppercase tracking-widest hover:bg-klein-blue hover:text-bone transition-colors"
+              >
+                {link.label}
+              </a>
+            ))}
+            <a
+              href="mailto:support@arcleintelligence.com"
+              className="h-full px-8 flex items-center arch-border-l bg-ink text-bone font-mono text-xs uppercase tracking-widest hover:bg-klein-blue transition-colors"
+            >
+              Contact
+            </a>
+          </div>
+
+          <button
+            className="md:hidden p-4 arch-border-l"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            <div className="w-6 h-px bg-ink mb-1.5"></div>
+            <div className="w-6 h-px bg-ink mb-1.5"></div>
+            <div className="w-4 h-px bg-ink"></div>
+          </button>
+        </div>
       </nav>
-    </header>
+
+      {mobileMenuOpen && (
+        <div className="fixed inset-0 z-40 bg-bone pt-20 md:hidden">
+          <div className="flex flex-col">
+            {navLinks.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="px-6 py-4 arch-border-b font-mono text-xs uppercase tracking-widest"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                {link.label}
+              </a>
+            ))}
+            <a
+              href="mailto:support@arcleintelligence.com"
+              className="px-6 py-4 arch-border-b font-mono text-xs uppercase tracking-widest bg-ink text-bone"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 
