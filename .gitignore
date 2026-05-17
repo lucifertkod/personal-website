@@ -42,3 +42,6 @@ next-env.d.ts
 .env.local
 .env.production
 .env.*.local
+DESIGN.md
+.gitignore
+DESIGN.b64
