@@ -10,7 +10,7 @@ const Footer = () => {
     { href: "#features", label: "Features" },
     { href: "#matrix", label: "Data Matrix" },
     { href: "#download", label: "Download" },
-    { href: "#support", label: "Support" },
+    { href: "#support", label: "Fund the Model" },
   ];
 
   const socialLinks = [
@@ -34,8 +34,8 @@ const Footer = () => {
                 <span className="font-label text-klein-blue">Intelligence</span>
               </div>
               <p className="font-mono text-sm text-ink/50 leading-relaxed mb-8 max-w-sm">
-                Autonomous, local, absolute privacy. The terminal for the next
-                era of high-performance computing and personal AI.
+                5.82B parameter multimodal AI. Built independently by a student
+                developer — zero funding, zero team, for everyone.
               </p>
               <div className="flex gap-6">
                 {socialLinks.map((link) => (
@@ -68,15 +68,21 @@ const Footer = () => {
               </nav>
             </div>
 
-            {/* Legal column */}
+            {/* Contact column */}
             <div className="lg:col-span-3">
-              <p className="font-label text-ink/25 mb-6">Legal</p>
+              <p className="font-label text-ink/25 mb-6">Contact</p>
               <div className="flex flex-col gap-3">
                 <a
-                  href="mailto:support@arcleintelligence.com"
+                  href="mailto:lucifertkod2007aa@gmail.com"
                   className="font-mono text-sm text-ink/50 hover:text-klein-blue transition-colors"
                 >
-                  Contact Support
+                  lucifertkod2007aa@gmail.com
+                </a>
+                <a
+                  href="tel:+16200977797"
+                  className="font-mono text-sm text-ink/50 hover:text-klein-blue transition-colors"
+                >
+                  +1 (620) 097-7797
                 </a>
                 <button
                   onClick={() => setLicenseOpen(true)}
@@ -91,7 +97,17 @@ const Footer = () => {
           {/* Bottom bar */}
           <div className="arch-border-t py-6 flex flex-col md:flex-row justify-between items-center gap-4 font-label text-ink/30">
             <p>Built by ArcleIntelligence &copy; 2026</p>
-            <p>All Rights Reserved</p>
+            <p>
+              Frontend designed by{" "}
+              <a
+                href="https://naman.is-a.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-ink/50 hover:text-klein-blue transition-colors"
+              >
+                Naman
+              </a>
+            </p>
           </div>
         </div>
       </footer>

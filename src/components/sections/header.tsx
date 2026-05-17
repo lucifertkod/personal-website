@@ -52,7 +52,7 @@ const Header = () => {
                 </a>
               ))}
               <a
-                href="mailto:support@arcleintelligence.com"
+                href="mailto:lucifertkod2007aa@gmail.com"
                 className="h-full px-6 flex items-center arch-border-l bg-ink text-bone font-label hover:bg-klein-blue transition-colors duration-300"
               >
                 Contact

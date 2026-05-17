@@ -1,89 +1,79 @@
 const FeatureTable = () => {
   const features = [
     {
-      feature: "Execution Environment",
-      arc: "On-Device",
-      competitors: "Cloud-dependent",
+      feature: "Parameters",
+      arc: "5.82 Billion",
+      competitors: "Varies (closed)",
     },
     {
-      feature: "Network Dependency",
-      arc: "True Offline",
-      competitors: "Internet required",
+      feature: "Context Window",
+      arc: "1,000,000 tokens",
+      competitors: "128K – 200K tokens",
     },
     {
-      feature: "API Dependencies",
-      arc: "Zero Dependencies",
-      competitors: "External APIs needed",
+      feature: "Multimodal Input",
+      arc: "Text, Image, PDF, Audio, Video",
+      competitors: "Text + Image only",
     },
     {
-      feature: "Operational Limits",
-      arc: "Unlimited",
-      competitors: "Monthly caps & rate limits",
+      feature: "Generation Output",
+      arc: "Text, Image, Speech",
+      competitors: "Text only (mostly)",
     },
     {
-      feature: "App / Web / Game Generation",
-      arc: "Native Generation",
-      competitors: "Not available",
+      feature: "Funding",
+      arc: "Independent / Crowdfunded",
+      competitors: "Corporate (billions)",
     },
     {
-      feature: "Media Generation Suite",
-      arc: "Full Native Suite",
-      competitors: "Partial / API required",
+      feature: "Team Size",
+      arc: "1 developer",
+      competitors: "Thousands of engineers",
     },
     {
-      feature: "Data Privacy",
-      arc: "100% Local",
-      competitors: "Server-side processing",
-    },
-    {
-      feature: "Latency",
-      arc: "< 100ms local",
-      competitors: "Network-dependent",
+      feature: "Release Plan",
+      arc: "Open weights + source code",
+      competitors: "Closed / API-only",
     },
   ];
 
   return (
     <section id="matrix" className="py-20 md:py-32 px-6 md:px-12 lg:px-24 scroll-mt-20">
       <div className="max-w-[1600px] mx-auto">
-        {/* Section header */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-16 arch-border-b pb-8">
           <div className="md:col-span-7">
             <p className="font-label text-klein-blue mb-4">
-              Fig. 01 — Data Matrix
+              Fig. 01 — Model Specs
             </p>
             <h2 className="font-sans font-bold text-4xl md:text-5xl lg:text-6xl uppercase tracking-tighter leading-[0.9]">
-              System
+              Independent
               <br />
               <span className="font-serif italic font-light text-ink/60 lowercase">
-                Comparison
+                Intelligence
               </span>
             </h2>
           </div>
           <div className="md:col-span-5 md:flex md:items-end">
             <p className="font-mono text-sm text-ink/50 leading-relaxed max-w-sm">
-              Architectural differences between ArcleIntelligence and legacy
-              cloud-dependent AI models. Every row represents a fundamental
-              advantage.
+              ArcleIntelligence vs. corporate AI models — built by one student
+              developer with zero corporate funding.
             </p>
           </div>
         </div>
 
-        {/* Table */}
         <div className="arch-border bg-card overflow-hidden">
-          {/* Table header */}
           <div className="grid grid-cols-12 font-label bg-bone arch-border-b">
             <div className="col-span-5 md:col-span-4 px-6 py-4 text-ink/40">
-              Capability
+              Specification
             </div>
             <div className="col-span-4 md:col-span-3 px-6 py-4 text-ink/40 arch-border-l text-center">
-              Legacy AI
+              Corporate AI
             </div>
             <div className="col-span-3 md:col-span-5 px-6 py-4 bg-klein-blue text-bone arch-border-l text-center font-bold">
               ArcleIntelligence
             </div>
           </div>
 
-          {/* Table rows */}
           {features.map((row, index) => (
             <div
               key={index}

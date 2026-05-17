@@ -1,13 +1,17 @@
 const Marquee = () => {
   const items = [
-    "Offline AI",
-    "Voice Powered",
-    "Privacy Focused",
-    "On-Device Processing",
-    "Text Summarization",
-    "Real-Time Translation",
-    "Image Understanding",
-    "Code Generation",
+    "5.82B Parameters",
+    "Multimodal AI",
+    "1M Context Window",
+    "Text Understanding",
+    "Image Generation",
+    "Document Parsing",
+    "Audio Processing",
+    "Video Analysis",
+    "Speech Synthesis",
+    "Independent Build",
+    "Open Source Planned",
+    "Crowdfunded",
   ];
 
   const repeated = [...items, ...items, ...items, ...items];

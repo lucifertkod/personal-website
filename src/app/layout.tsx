@@ -30,11 +30,11 @@ const siteUrl = "https://arclintelligence.com";
 
 export const metadata: Metadata = {
   title: {
-    default: "ArcleIntelligence — Absolute Autonomy",
+    default: "ArcleIntelligence — 5.82B Parameter Multimodal AI",
     template: "%s | ArcleIntelligence",
   },
   description:
-    "The world's most powerful on-device AI assistant. Offline, privacy-focused, zero API dependencies. Just download it.",
+    "A 5.82B parameter multimodal AI model being built independently by a student developer. Zero corporate funding. Text, images, documents, audio, video — all in one model.",
   metadataBase: new URL(siteUrl),
   alternates: {
     canonical: siteUrl,
@@ -44,23 +44,23 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName: "ArcleIntelligence",
-    title: "ArcleIntelligence — Absolute Autonomy",
+    title: "ArcleIntelligence — 5.82B Parameter Multimodal AI",
     description:
-      "The world's most powerful on-device AI assistant. Offline, privacy-focused, zero API dependencies.",
+      "A 5.82B parameter multimodal AI model being built independently by a student developer. Zero corporate funding.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "ArcleIntelligence — Absolute Autonomy",
+        alt: "ArcleIntelligence — 5.82B Parameter Multimodal AI",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ArcleIntelligence — Absolute Autonomy",
+    title: "ArcleIntelligence — 5.82B Parameter Multimodal AI",
     description:
-      "The world's most powerful on-device AI assistant. Offline, privacy-focused, zero API dependencies.",
+      "A 5.82B parameter multimodal AI model being built independently by a student developer. Zero corporate funding.",
     images: ["/og-image.png"],
     creator: "@arclintelligence",
   },

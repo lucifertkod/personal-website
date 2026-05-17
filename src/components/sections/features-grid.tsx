@@ -1,47 +1,47 @@
 const FeaturesGrid = () => {
   const categories = [
     {
-      title: "Comms & Admin",
+      title: "Understanding",
       icon: "01",
       items: [
-        "Schedule meetings from chat",
-        "Read & summarize email",
-        "Draft replies and follow-ups",
-        "Translate messages real time",
-        "Take meeting notes",
+        "Natural language processing",
+        "Image & visual analysis",
+        "Document & PDF parsing",
+        "Audio & speech recognition",
+        "Video clip understanding",
       ],
     },
     {
-      title: "Life Operations",
+      title: "Generation",
       icon: "02",
       items: [
-        "Analyze insurance quotes",
-        "Manage subscriptions",
-        "Remind you of deadlines",
-        "Plan your week",
-        "Find recipes from ingredients",
+        "Long-form text generation",
+        "Image synthesis from text",
+        "Speech generation (TTS)",
+        "Code generation",
+        "Structured data output",
       ],
     },
     {
-      title: "Finance & Markets",
+      title: "Reasoning",
       icon: "03",
       items: [
-        "Automate payroll calculations",
-        "Negotiate refunds",
-        "Find best prices online",
-        "Find discount codes",
-        "Track crypto & stocks",
+        "Visual question answering",
+        "Document Q&A",
+        "Multi-step problem solving",
+        "Cross-modal reasoning",
+        "1M token context window",
       ],
     },
     {
-      title: "Business Strategy",
+      title: "Independence",
       icon: "04",
       items: [
-        "Draft social posts",
-        "Write contracts and NDAs",
-        "Research competitors",
-        "Screen candidates",
-        "Track OKRs and KPIs",
+        "Zero corporate funding",
+        "Built by 1 developer",
+        "Open weights planned",
+        "Source code on GitHub",
+        "Free for everyone",
       ],
     },
   ];
@@ -49,28 +49,27 @@ const FeaturesGrid = () => {
   return (
     <section id="features" className="py-20 md:py-32 px-6 md:px-12 lg:px-24 scroll-mt-20">
       <div className="max-w-[1600px] mx-auto">
-        {/* Section header */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-16 arch-border-b pb-8">
           <div className="md:col-span-7">
             <p className="font-label text-klein-blue mb-4">
-              Fig. 02 — Operations
+              Fig. 02 — Capabilities
             </p>
             <h2 className="font-sans font-bold text-4xl md:text-5xl lg:text-6xl uppercase tracking-tighter leading-[0.9]">
-              One Node.
+              One Model.
               <br />
               <span className="font-serif italic font-light text-ink/60 lowercase">
-                Thousands of uses.
+                Every modality.
               </span>
             </h2>
           </div>
           <div className="md:col-span-5 md:flex md:items-end">
-            <div className="font-label arch-border px-4 py-2.5 inline-block hover:bg-ink hover:text-bone transition-colors duration-300 cursor-default">
-              + Add via Natural Language
-            </div>
+            <p className="font-mono text-sm text-ink/50 leading-relaxed max-w-sm">
+              Text, images, documents, PDFs, audio, and video — all in one
+              unified system.
+            </p>
           </div>
         </div>
 
-        {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 arch-border">
           {categories.map((category, index) => (
             <div
@@ -104,16 +103,6 @@ const FeaturesGrid = () => {
               </ul>
             </div>
           ))}
-        </div>
-
-        {/* Media suite banner */}
-        <div className="mt-8 arch-border bg-card p-6 md:p-8 text-center">
-          <p className="font-label text-klein-blue mb-2">
-            Advanced Media Suite
-          </p>
-          <p className="font-serif text-lg md:text-xl italic text-ink/70">
-            Generate Websites, Apps, and Games from Text &middot; Image &amp; Video Generation &middot; Deep Understanding
-          </p>
         </div>
       </div>
     </section>
