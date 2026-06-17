@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { getServiceSupabase } from "@/lib/supabase";
 
+export const dynamic = "force-dynamic";
+
 // GET seats remaining
 export async function GET() {
     try {
