@@ -58,6 +58,15 @@ const Footer = () => {
               <a href="#donate" className="hover:text-klein-blue transition-colors">
                 Support
               </a>
+              <a href="/company" className="hover:text-klein-blue transition-colors">
+                Company
+              </a>
+              <a href="/product" className="hover:text-klein-blue transition-colors">
+                Product
+              </a>
+              <a href="/contact" className="hover:text-klein-blue transition-colors">
+                Contact
+              </a>
             </div>
             <div className="flex flex-col gap-4">
               <span className="text-xs text-ink/40 uppercase tracking-widest mb-2">
@@ -68,6 +77,12 @@ const Footer = () => {
                 className="hover:text-klein-blue transition-colors"
               >
                 Contact Support
+              </a>
+              <a href="/privacy" className="hover:text-klein-blue transition-colors">
+                Privacy Policy
+              </a>
+              <a href="/terms" className="hover:text-klein-blue transition-colors">
+                Terms of Service
               </a>
               <button
                 onClick={() => setLicenseModalOpen(true)}

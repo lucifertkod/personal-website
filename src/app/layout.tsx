@@ -39,6 +39,40 @@ export default function RootLayout({
   return (
     <html lang="en" className={`scroll-smooth ${cormorant.variable} ${syne.variable} ${ibmMono.variable}`} suppressHydrationWarning>
       <body className="antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "ArcleIntelligence",
+              "url": "https://arcleintelligence.com",
+              "logo": "https://arcleintelligence.com/logos/arc-intelligence.png",
+              "description": "Fully offline, on-device, privacy-first AI assistant. No cloud dependency, no data leaving your device.",
+              "founder": {
+                "@type": "Person",
+                "name": "Abhinav Anand"
+              },
+              "foundingDate": "2026",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Katihar",
+                "addressRegion": "Bihar",
+                "addressCountry": "India"
+              },
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "support@arcleintelligence.com",
+                "contactType": "customer support"
+              },
+              "sameAs": [
+                "https://youtube.com/@luciferthetechnicalgamerz8278",
+                "https://www.instagram.com/abhinavanand8608",
+                "https://x.com/Anonomus090806"
+              ]
+            })
+          }}
+        />
         <ErrorReporter />
         {children}
       </body>

@@ -9,6 +9,8 @@ const Header = () => {
     { href: "#features", label: "Features" },
     { href: "#matrix", label: "Data.Matrix" },
     { href: "#donate", label: "Support" },
+    { href: "/company", label: "Company" },
+    { href: "/product", label: "Product" },
   ];
 
   return (
@@ -35,7 +37,7 @@ const Header = () => {
               </a>
             ))}
             <a
-              href="mailto:support@arcleintelligence.com"
+              href="/contact"
               className="h-full px-8 flex items-center arch-border-l bg-ink text-bone font-mono text-xs uppercase tracking-widest hover:bg-klein-blue transition-colors"
             >
               Contact
@@ -68,7 +70,7 @@ const Header = () => {
               </a>
             ))}
             <a
-              href="mailto:support@arcleintelligence.com"
+              href="/contact"
               className="px-6 py-4 arch-border-b font-mono text-xs uppercase tracking-widest bg-ink text-bone"
               onClick={() => setMobileMenuOpen(false)}
             >
