@@ -207,7 +207,7 @@ npm run dev
 
 ### Built with ❤️ by ArcleIntelligence
 
-[**Contact Support**](https://arclintelligence.com) | [**Website**](https://arclintelligence.com)
+[**Contact Support**](https://arclintelligence.com) | [**Website**]
 
 </div>
 
