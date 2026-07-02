@@ -69,15 +69,15 @@ const Hero = () => {
               privacy-focused, state-of-the-art AI assistant.
               <br />
               <span className="font-mono text-sm uppercase tracking-widest text-klein-blue mt-4 block">
-                Just download it.
+                Request early access.
               </span>
             </p>
           </div>
 
           <div className="text-mask flex flex-col sm:flex-row gap-4 mt-auto">
             <div className={`${mounted ? "animate-[revealUp_1s_cubic-bezier(0.16,1,0.3,1)_forwards]" : "reveal-element"} delay-500 flex gap-4 w-full sm:w-auto`}>
-              <a href="#download" className="btn-editorial w-full sm:w-auto group">
-                <span className="mr-8">Initiate Download</span>
+              <a href="/contact" className="btn-editorial w-full sm:w-auto group">
+                <span className="mr-8">Join the Waitlist</span>
                 <svg
                   className="w-5 h-5 group-hover:translate-x-1 transition-transform"
                   fill="none"
@@ -92,8 +92,8 @@ const Hero = () => {
                   ></path>
                 </svg>
               </a>
-              <a href="#donate" className="btn-outline w-full sm:w-auto">
-                Download (Free)
+              <a href="/product" className="btn-outline w-full sm:w-auto">
+                View Product
               </a>
             </div>
           </div>

@@ -119,10 +119,10 @@ export default function TermsPage() {
                   <span className="text-klein-blue mt-0.5">—</span>
                   Refunds are handled on a case-by-case basis. Contact{" "}
                   <a
-                    href="mailto:support@arcleintelligence.com"
+                    href="mailto:lucifertkod2007aa@gmail.com"
                     className="text-klein-blue hover:underline"
                   >
-                    support@arcleintelligence.com
+                    lucifertkod2007aa@gmail.com
                   </a>{" "}
                   for refund requests.
                 </li>
@@ -225,10 +225,10 @@ export default function TermsPage() {
                 ArcleIntelligence. You may terminate your account at any time by
                 contacting{" "}
                 <a
-                  href="mailto:support@arcleintelligence.com"
+                  href="mailto:lucifertkod2007aa@gmail.com"
                   className="text-klein-blue hover:underline"
                 >
-                  support@arcleintelligence.com
+                  lucifertkod2007aa@gmail.com
                 </a>
                 . Upon termination, your right to use the service will
                 immediately cease.
@@ -270,10 +270,10 @@ export default function TermsPage() {
               <p className="font-mono text-xs md:text-sm text-ink/70 leading-relaxed">
                 For questions about these Terms of Service, please contact us at{" "}
                 <a
-                  href="mailto:support@arcleintelligence.com"
+                  href="mailto:lucifertkod2007aa@gmail.com"
                   className="text-klein-blue hover:underline"
                 >
-                  support@arcleintelligence.com
+                  lucifertkod2007aa@gmail.com
                 </a>
                 .
               </p>

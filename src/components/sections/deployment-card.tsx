@@ -100,7 +100,7 @@ export default function DeploymentCard() {
 
   /* ── Replace "#" with your actual download URLs ── */
   const downloadLinks = {
-    pro: "#",       // e.g. "https://example.com/download/pro"
+    pro: "/contact",       // e.g. "https://example.com/download/pro"
   };
 
   const scrollToDonation = (e: React.MouseEvent) => {
@@ -218,7 +218,7 @@ export default function DeploymentCard() {
             className="w-full flex items-center justify-center gap-2.5 px-4 py-3.5 rounded-xl text-sm sm:text-base text-zinc-300 font-semibold transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(255,255,255,0.08)] border border-white/15 bg-gradient-to-r from-zinc-800/50 via-neutral-900/60 to-zinc-800/50 backdrop-blur-sm no-underline hover:border-white/25"
           >
             <Download className="size-4" />
-            Download ArcleIntelligence without donation
+            Request early access without donation
           </a>
         </div>
       </div>

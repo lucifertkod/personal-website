@@ -260,13 +260,14 @@ export default function ProductPage() {
               <div className="absolute top-2 right-2 w-2 h-2 border-t border-r border-ink"></div>
               <div className="absolute bottom-2 left-2 w-2 h-2 border-b border-l border-ink"></div>
               <div className="absolute bottom-2 right-2 w-2 h-2 border-b border-r border-ink"></div>
+              {/* TODO: Replace with real product screenshot image when available */}
               <div className="aspect-video bg-bone flex items-center justify-center arch-border">
                 <div className="text-center">
                   <div className="font-mono text-xs uppercase tracking-widest text-ink/30 mb-2">
-                    Product Screenshot
+                    Screenshot Coming Soon
                   </div>
                   <div className="font-serif italic text-lg text-ink/20">
-                    Preview {n}
+                    View {n}
                   </div>
                 </div>
               </div>
@@ -359,25 +360,26 @@ export default function ProductPage() {
                 ))}
               </ul>
 
-              <button
+              <a
+                href={tier.name === "Enterprise" ? "mailto:lucifertkod2007aa@gmail.com" : "/contact"}
                 className={
                   tier.featured
-                    ? "w-full mt-auto py-4 bg-amber-950 text-amber-200 font-mono text-sm uppercase tracking-widest font-bold hover:bg-amber-900 hover:text-amber-100 transition-colors"
-                    : "btn-outline w-full mt-auto font-bold group-hover:bg-ink group-hover:text-bone"
+                    ? "w-full mt-auto py-4 bg-amber-950 text-amber-200 font-mono text-sm uppercase tracking-widest font-bold hover:bg-amber-900 hover:text-amber-100 transition-colors text-center block"
+                    : "btn-outline w-full mt-auto font-bold group-hover:bg-ink group-hover:text-bone text-center block"
                 }
               >
                 {tier.buttonLabel}
-              </button>
+              </a>
             </div>
           ))}
         </div>
 
         <div className="mt-12 text-center">
           <a
-            href="mailto:support@arcleintelligence.com"
+            href="mailto:lucifertkod2007aa@gmail.com"
             className="font-mono text-xs uppercase tracking-widest border-b border-ink/30 text-ink/60 hover:text-ink hover:border-ink pb-1 transition-colors"
           >
-            Questions? Contact support@arcleintelligence.com ↬
+            Questions? Contact lucifertkod2007aa@gmail.com ↬
           </a>
         </div>
       </section>

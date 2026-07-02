@@ -27,8 +27,17 @@ const ibmMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://arcleintelligence-six.vercel.app'),
   title: "ArcleIntelligence | Editorial Edition",
   description: "Avoid all technical complexity. Run the world's most powerful, offline, on-device, privacy-focused, state-of-the-art AI assistant.",
+  openGraph: {
+    type: 'website',
+    siteName: 'ArcleIntelligence',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+  },
 };
 
 export default function RootLayout({
@@ -39,6 +48,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`scroll-smooth ${cormorant.variable} ${syne.variable} ${ibmMono.variable}`} suppressHydrationWarning>
       <body className="antialiased">
+        {/* TODO: Confirm foundingDate "2026" matches your AWS Activate application exactly */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -46,8 +56,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "ArcleIntelligence",
-              "url": "https://arcleintelligence.com",
-              "logo": "https://arcleintelligence.com/logos/arc-intelligence.png",
+              "url": "https://arcleintelligence-six.vercel.app",
+              "logo": "https://arcleintelligence-six.vercel.app/logos/arc-intelligence.png",
               "description": "Fully offline, on-device, privacy-first AI assistant. No cloud dependency, no data leaving your device.",
               "founder": {
                 "@type": "Person",
@@ -62,7 +72,7 @@ export default function RootLayout({
               },
               "contactPoint": {
                 "@type": "ContactPoint",
-                "email": "support@arcleintelligence.com",
+                "email": "lucifertkod2007aa@gmail.com",
                 "contactType": "customer support"
               },
               "sameAs": [

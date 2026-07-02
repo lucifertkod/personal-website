@@ -223,10 +223,10 @@ export default function PrivacyPage() {
                 You may request access to, correction of, or deletion of your
                 personal data by contacting{" "}
                 <a
-                  href="mailto:support@arcleintelligence.com"
+                  href="mailto:lucifertkod2007aa@gmail.com"
                   className="text-klein-blue hover:underline"
                 >
-                  support@arcleintelligence.com
+                  lucifertkod2007aa@gmail.com
                 </a>
                 . We will respond to your request within 30 days. You may also
                 delete your account at any time, which will remove all
@@ -269,10 +269,10 @@ export default function PrivacyPage() {
               <p className="font-mono text-xs md:text-sm text-ink/70 leading-relaxed">
                 For privacy-related inquiries, please contact us at{" "}
                 <a
-                  href="mailto:support@arcleintelligence.com"
+                  href="mailto:lucifertkod2007aa@gmail.com"
                   className="text-klein-blue hover:underline"
                 >
-                  support@arcleintelligence.com
+                  lucifertkod2007aa@gmail.com
                 </a>
                 .
               </p>

@@ -53,6 +53,7 @@ const SupportSection = () => {
             <h4 className="font-serif italic text-3xl mb-2">{tier.name}</h4>
             <div className="font-sans font-bold text-4xl mb-8">{tier.price}</div>
             <button
+              onClick={() => window.location.href = '/contact'}
               className={tier.featured
                 ? "w-full mt-auto py-4 bg-amber-950 text-amber-200 font-mono text-sm uppercase tracking-widest font-bold hover:bg-amber-900 hover:text-amber-100 transition-colors"
                 : "btn-outline w-full mt-auto font-bold group-hover:bg-ink group-hover:text-bone"
@@ -66,10 +67,10 @@ const SupportSection = () => {
 
       <div className="mt-12 text-center">
         <a
-          href="#download"
+          href="/contact"
           className="font-mono text-xs uppercase tracking-widest border-b border-ink/30 text-ink/60 hover:text-ink hover:border-ink pb-1 transition-colors"
         >
-          Proceed to download without donation ↬
+          Request early access without donating ↬
         </a>
       </div>
 

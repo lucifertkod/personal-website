@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://arcleintelligence.com/sitemap.xml',
+    sitemap: 'https://arcleintelligence-six.vercel.app/sitemap.xml',
   };
 }

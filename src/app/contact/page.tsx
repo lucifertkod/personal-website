@@ -7,7 +7,7 @@ import ContactForm from "./contact-form";
 export const metadata: Metadata = {
   title: "Contact — ArcleIntelligence",
   description:
-    "Get in touch with ArcleIntelligence. Contact us for support, partnerships, or inquiries at support@arcleintelligence.com.",
+    "Get in touch with ArcleIntelligence. Contact us for support, partnerships, or inquiries at lucifertkod2007aa@gmail.com.",
 };
 
 export default function ContactPage() {
@@ -60,10 +60,10 @@ export default function ContactPage() {
                   Email
                 </p>
                 <a
-                  href="mailto:support@arcleintelligence.com"
+                  href="mailto:lucifertkod2007aa@gmail.com"
                   className="font-mono text-sm hover:text-klein-blue transition-colors"
                 >
-                  support@arcleintelligence.com
+                  lucifertkod2007aa@gmail.com
                 </a>
               </div>
 

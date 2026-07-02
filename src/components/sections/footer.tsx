@@ -26,19 +26,25 @@ const Footer = () => {
             </p>
             <div className="flex gap-4 font-mono text-xs uppercase tracking-widest">
               <a
-                href="#"
+                href="https://youtube.com/@luciferthetechnicalgamerz8278"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-klein-blue transition-colors pb-1 border-b border-transparent hover:border-klein-blue"
               >
                 YouTube
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/abhinavanand8608"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-klein-blue transition-colors pb-1 border-b border-transparent hover:border-klein-blue"
               >
                 Instagram
               </a>
               <a
-                href="#"
+                href="https://x.com/Anonomus090806"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-klein-blue transition-colors pb-1 border-b border-transparent hover:border-klein-blue"
               >
                 X (Twitter)
@@ -49,13 +55,13 @@ const Footer = () => {
           <div className="grid grid-cols-2 gap-12 font-mono text-sm">
             <div className="flex flex-col gap-4">
               <span className="text-xs text-ink/40 uppercase tracking-widest mb-2">Directory</span>
-              <a href="#features" className="hover:text-klein-blue transition-colors">
+              <a href="/#features" className="hover:text-klein-blue transition-colors">
                 Features
               </a>
-              <a href="#matrix" className="hover:text-klein-blue transition-colors">
+              <a href="/#matrix" className="hover:text-klein-blue transition-colors">
                 Data Matrix
               </a>
-              <a href="#donate" className="hover:text-klein-blue transition-colors">
+              <a href="/#donate" className="hover:text-klein-blue transition-colors">
                 Support
               </a>
               <a href="/company" className="hover:text-klein-blue transition-colors">
@@ -73,7 +79,7 @@ const Footer = () => {
                 Legal / Ops
               </span>
               <a
-                href="mailto:support@arcleintelligence.com"
+                href="mailto:lucifertkod2007aa@gmail.com"
                 className="hover:text-klein-blue transition-colors"
               >
                 Contact Support

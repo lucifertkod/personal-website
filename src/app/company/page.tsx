@@ -10,12 +10,13 @@ export const metadata: Metadata = {
 };
 
 const companyFacts = [
+  /* TODO: Confirm "2026" matches your AWS Activate application exactly */
   { parameter: "Founded", value: "2026" },
   { parameter: "Headquarters", value: "Katihar, Bihar, India" },
   { parameter: "Entity Type", value: "Sole Proprietorship" },
   { parameter: "Founder", value: "Abhinav Anand" },
   { parameter: "Team Size", value: "1 (Solo Founder)" },
-  { parameter: "Contact", value: "support@arcleintelligence.com" },
+  { parameter: "Contact", value: "lucifertkod2007aa@gmail.com" },
   { parameter: "Core Product", value: "On-Device AI Assistant" },
   { parameter: "Technology Stack", value: "Custom LLM, On-Device Inference" },
 ];
@@ -108,10 +109,11 @@ export default function CompanyPage() {
             <div className="absolute top-2 right-2 w-2 h-2 border-t border-r border-ink"></div>
             <div className="absolute bottom-2 left-2 w-2 h-2 border-b border-l border-ink"></div>
             <div className="absolute bottom-2 right-2 w-2 h-2 border-b border-r border-ink"></div>
+            {/* TODO: Replace with real founder photograph */}
             <div className="aspect-[3/4] bg-bone flex items-center justify-center arch-border">
               <div className="text-center">
                 <div className="font-mono text-xs uppercase tracking-widest text-ink/30 mb-2">
-                  Founder Portrait
+                  Photo Coming Soon
                 </div>
                 <div className="font-serif italic text-lg text-ink/20">
                   Photograph
